@@ -16,32 +16,7 @@ class groupController extends Controller
         return view('group.index', ['group' => $group]);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
-    // public function manager()
-    // {
-    //     $group = Group::get();
-    //     return view('group.manager', ['group' => $group]);
-    // }
 
-    // /**
-    //  * Store a newly created resource in storage.
-    //  */
-    // public function userGroup()
-    // {
-    //     $user = Group::get();
-    //     return view('user.group', ['user' => $user]);
-    // }
-    // public function childGroup()
-    // {
-    //     $childGroup = Group::get();
-    //     return view('group.parent', ['childGroup' => $childGroup]);
-    // }
-
-    /**
-     * Display the specified resource.
-     */
     public function show(string $id)
     {
         //

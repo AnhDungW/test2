@@ -3,9 +3,9 @@
 <h1>{{ $item->name }}</h1>
 @if ($item->children->count() > 0)
     
-    <ul>       
+    <li>       
         @include('group.group_partial', ['group' => $item->children])
-    </ul>
+    </li>
 @endif
 
 @endforeach
